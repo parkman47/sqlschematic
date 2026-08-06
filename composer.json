@@ -1,0 +1,13 @@
+{
+  "name": "parkman47/sqlschematic",
+  "description": "Ordered, auditable MySQL and MariaDB schema migrations for plain PHP applications.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "files": ["src/SqlSchematic.php"]
+  }
+}
